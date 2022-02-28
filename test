@@ -1,0 +1,28 @@
+id: waf-detect
+
+info:
+  name: WAF Detection
+  author: dwisiswant0,lu4nx
+  severity: info
+  reference: https://github.com/Ekultek/WhatWaf
+  tags: waf,tech,misc
+
+requests:
+  - raw:
+      - |
+        POST / HTTP/1.1
+        Host: {{Hostname}}
+        Content-Type: application/x-www-form-urlencoded
+
+        _=<script>alert(1)</script>
+
+    matchers:
+      - type: regex
+        name: aws
+        regex:
+          - '(?i)<RequestId>[0-9a-zA-Z]{16,25}<.RequestId>'
+          - '(?i)<Error><Code>AccessDenied<.Code>'
+          - '(?i)x.amz.id.\d+'
+          - '(?i)x.amz.request.id'
+        condition: or
+        part: all
