@@ -1,0 +1,20 @@
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 root@0c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Upgrade-Insecure-Requests: 1
+Cache-Control: no-transform
+Te: trailers
+Connection: close
+X-Originating-IP: spoofed.c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+Client-IP: spoofed.c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+Contact: root@c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+X-Wap-Profile: http://c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh/wap.xml
+X-Client-IP: spoofed.c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+X-Forwarded-For: spoofed.c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+From: root@c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+X-Real-IP: spoofed.c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+CF-Connecting_IP: spoofed.c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+Forwarded: for=spoofed.c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh;by=spoofed.c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh;host=spoofed.c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+True-Client-IP: spoofed.c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh
+Referer: http://c8n2sd52vtc00007xk1ggrktcswyyyyyb.interact.sh/ref
